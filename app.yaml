@@ -2,6 +2,8 @@ runtime: nodejs20
 
 instance_class: F1 # Default
 
+entrypoint: npm run serve
+
 handlers:
 - url: /.*
   secure: always
